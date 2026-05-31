@@ -256,7 +256,7 @@ h3 {
 
 .watermelon-image {
   display: block;
-  width: min(100%, 420px);
+  width: min(80%, 720px);
   height: auto;
   margin: 0 auto 22px;
   border-radius: 8px;
@@ -354,6 +354,10 @@ h3 {
 
   .app-image {
     height: 260px;
+  }
+
+  .watermelon-image {
+    width: 100%;
   }
 
   .single-line-title {
