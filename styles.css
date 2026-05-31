@@ -87,7 +87,7 @@ a {
 
 .eyebrow,
 .section-kicker {
-  margin: 0 0 14px;
+  margin: 0 0 30px;
   color: var(--warm);
   font-size: 0.8rem;
   font-weight: 800;
@@ -108,7 +108,7 @@ p {
 
 h1 {
   max-width: 980px;
-  margin-bottom: 24px;
+  margin-bottom: 60px;
   font-size: clamp(2.55rem, 6vw, 5.8rem);
   line-height: 0.98;
   letter-spacing: 0;
@@ -182,7 +182,7 @@ h3 {
   display: grid;
   grid-template-columns: minmax(0, 0.9fr) minmax(280px, 1.1fr);
   gap: clamp(28px, 6vw, 84px);
-  align-items: start;
+  align-items: center;
 }
 
 .contact p {
@@ -318,6 +318,18 @@ h3 {
 .contact .button {
   justify-self: start;
   align-self: center;
+}
+
+.email-image {
+  cursor: default;
+  transform: translateY(24px);
+}
+
+.email-image img {
+  display: block;
+  width: 230px;
+  max-width: 100%;
+  height: auto;
 }
 
 .site-footer {
