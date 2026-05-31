@@ -254,14 +254,22 @@ h3 {
   object-fit: contain;
 }
 
-.app-image.full-width-image {
-  width: auto;
-  max-width: 100%;
+.watermelon-image-frame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 320px;
+  margin-bottom: 22px;
+  overflow: visible;
+}
+
+.watermelon-image-frame img {
+  width: auto;
+  height: 100%;
+  max-width: 100%;
   object-fit: contain;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  border: 1px solid var(--line);
+  border-radius: 8px;
 }
 
 .genre {
@@ -358,7 +366,7 @@ h3 {
     height: 260px;
   }
 
-  .app-image.full-width-image {
+  .watermelon-image-frame {
     height: 260px;
   }
 
