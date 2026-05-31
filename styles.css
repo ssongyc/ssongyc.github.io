@@ -218,6 +218,11 @@ h3 {
   gap: 18px;
 }
 
+.app-grid.single {
+  grid-template-columns: minmax(0, 1fr);
+  max-width: 760px;
+}
+
 .app-card {
   display: flex;
   flex-direction: column;
