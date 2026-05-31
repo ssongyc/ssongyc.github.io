@@ -255,7 +255,7 @@ h3 {
 }
 
 .app-image.full-width-image {
-  height: auto;
+  height: 320px;
   object-fit: cover;
 }
 
@@ -354,7 +354,7 @@ h3 {
   }
 
   .app-image.full-width-image {
-    height: auto;
+    height: 260px;
   }
 
   .single-line-title {
