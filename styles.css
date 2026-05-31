@@ -254,6 +254,15 @@ h3 {
   object-fit: contain;
 }
 
+.video-embed {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  margin-bottom: 22px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #000000;
+}
+
 .watermelon-image {
   display: block;
   width: auto;
