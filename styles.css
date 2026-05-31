@@ -254,6 +254,11 @@ h3 {
   object-fit: contain;
 }
 
+.app-image.full-width-image {
+  height: auto;
+  object-fit: cover;
+}
+
 .genre {
   margin-bottom: 10px;
   color: var(--accent);
@@ -346,6 +351,10 @@ h3 {
 
   .app-image {
     height: 260px;
+  }
+
+  .app-image.full-width-image {
+    height: auto;
   }
 
   .single-line-title {
