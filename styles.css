@@ -175,7 +175,7 @@ h3 {
 }
 
 .section {
-  padding: clamp(64px, 9vw, 110px) clamp(20px, 5vw, 72px);
+  padding: clamp(24px, 9vw, 48px) clamp(20px, 5vw, 72px);
 }
 
 .contact {
