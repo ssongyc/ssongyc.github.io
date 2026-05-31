@@ -255,8 +255,13 @@ h3 {
 }
 
 .app-image.full-width-image {
+  width: auto;
+  max-width: 100%;
   height: 320px;
   object-fit: contain;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .genre {
