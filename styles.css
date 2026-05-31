@@ -191,8 +191,13 @@ h3 {
 }
 
 .section-heading {
-  max-width: 720px;
+  max-width: 980px;
   margin-bottom: 32px;
+}
+
+.single-line-title {
+  white-space: nowrap;
+  font-size: clamp(1.55rem, 3vw, 2.65rem);
 }
 
 .experience-list {
@@ -221,6 +226,10 @@ h3 {
 .app-grid.single {
   grid-template-columns: minmax(0, 1fr);
   max-width: 760px;
+}
+
+.app-grid.compact {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .app-card {
@@ -255,6 +264,10 @@ h3 {
 
 .app-card p:not(.genre) {
   color: var(--muted);
+}
+
+.app-card.text-only {
+  min-height: 220px;
 }
 
 .download-links {
@@ -305,7 +318,8 @@ h3 {
   }
 
   .contact,
-  .app-grid {
+  .app-grid,
+  .app-grid.compact {
     grid-template-columns: 1fr;
   }
 
@@ -332,5 +346,9 @@ h3 {
 
   .app-image {
     height: 260px;
+  }
+
+  .single-line-title {
+    font-size: clamp(1.2rem, 6vw, 1.55rem);
   }
 }
