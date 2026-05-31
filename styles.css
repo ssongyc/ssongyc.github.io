@@ -254,9 +254,12 @@ h3 {
   object-fit: contain;
 }
 
-.app-image-cover {
-  object-fit: cover;
-  object-position: center;
+.watermelon-image {
+  display: block;
+  width: min(100%, 420px);
+  height: auto;
+  margin: 0 auto 22px;
+  border-radius: 8px;
 }
 
 .genre {
