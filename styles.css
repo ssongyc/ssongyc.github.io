@@ -76,7 +76,7 @@ a {
   min-height: calc(100vh - 72px);
   display: grid;
   align-items: center;
-  padding: clamp(56px, 9vw, 118px) clamp(20px, 5vw, 72px);
+  padding: clamp(24px, 9vw, 48px) clamp(20px, 5vw, 72px);
   background: #a33834;
   color: #ffffff;
 }
