@@ -254,23 +254,9 @@ h3 {
   object-fit: contain;
 }
 
-.watermelon-image-frame {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 320px;
-  margin-bottom: 22px;
-  overflow: visible;
-}
-
-.watermelon-image-frame img {
-  width: auto;
-  height: 100%;
-  max-width: 100%;
-  aspect-ratio: 1536 / 1664;
-  object-fit: contain;
-  border: 1px solid var(--line);
-  border-radius: 8px;
+.app-image-cover {
+  object-fit: cover;
+  object-position: center;
 }
 
 .genre {
@@ -364,10 +350,6 @@ h3 {
   }
 
   .app-image {
-    height: 260px;
-  }
-
-  .watermelon-image-frame {
     height: 260px;
   }
 
