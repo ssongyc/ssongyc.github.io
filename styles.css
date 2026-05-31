@@ -267,6 +267,7 @@ h3 {
   width: auto;
   height: 100%;
   max-width: 100%;
+  aspect-ratio: 1536 / 1664;
   object-fit: contain;
   border: 1px solid var(--line);
   border-radius: 8px;
