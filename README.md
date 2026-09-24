@@ -1,14 +1,25 @@
 # ssongyc.github.io
 
-Personal GitHub Pages homepage for Robert Song.
+Personal GitHub Pages homepage for Robert Song, available at
+[https://ssongyc.github.io/](https://ssongyc.github.io/).
 
-## Current Updates
+## Site Content
 
-- Experience updated to `20+ years` across game, mobile app, and e-commerce development.
-- Hero spacing adjusted for the title and primary action buttons.
-- Contact section simplified to show `Robert Song` and an image-rendered email address to reduce scraping.
-- Footer text simplified to `Robert Song`.
+- `20+ years` of game, mobile app, and e-commerce development experience.
+- Portfolio cards for released apps and games, including LED POP, Subway Master,
+  and decibella 2.
+- Additional professional projects and community experience.
+- Contact email rendered as an image to reduce basic text scraping. Image OCR can
+  still detect the address.
+
+## Structure
+
+- `index.html`: page content and external store links.
+- `styles.css`: responsive layout and visual styles.
+- `assets/apps/`: optimized portfolio and contact images used by the page.
 
 ## Deploy
 
-Use a GitHub repository named `ssongyc.github.io` and push these files to the default branch. GitHub Pages serves `index.html` from the repository root.
+GitHub Pages is configured to publish from the `main` branch and repository root
+of `ssongyc/ssongyc.github.io`. Pushing changes to `main` triggers the Pages
+deployment workflow.

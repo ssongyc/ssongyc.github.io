@@ -127,13 +127,6 @@ h3 {
   line-height: 1.2;
 }
 
-.hero-copy {
-  max-width: 700px;
-  margin-bottom: 34px;
-  color: rgba(255, 255, 255, 0.86);
-  font-size: clamp(1rem, 2vw, 1.2rem);
-}
-
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
@@ -185,11 +178,6 @@ h3 {
   align-items: center;
 }
 
-.contact p {
-  color: var(--muted);
-  font-size: 1.05rem;
-}
-
 .section-heading {
   max-width: 980px;
   margin-bottom: 32px;
@@ -221,11 +209,6 @@ h3 {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 18px;
-}
-
-.app-grid.single {
-  grid-template-columns: minmax(0, 1fr);
-  max-width: 760px;
 }
 
 .app-grid.compact {
@@ -282,10 +265,6 @@ h3 {
 
 .app-card p:not(.genre) {
   color: var(--muted);
-}
-
-.app-card.text-only {
-  min-height: 220px;
 }
 
 .download-links {
